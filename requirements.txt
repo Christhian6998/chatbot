@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gunicorn
+python-dotenv
+cloudinary
+google-genai
+PyPDF2
+pydantic
