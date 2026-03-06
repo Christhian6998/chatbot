@@ -42,6 +42,11 @@ except Exception as e:
 
 training_context = ""
 
+@app.get("/")
+async def root():
+    return {"message": "Chatbot is running"}
+
+
 @app.on_event("startup")
 async def startup_event():
     global training_context
