@@ -6,3 +6,5 @@ cloudinary
 google-genai
 PyPDF2
 pydantic
+apscheduler
+pytz
