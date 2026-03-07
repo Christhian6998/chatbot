@@ -190,7 +190,7 @@ async def chat_con_ia(request: ChatRequest):
 
     try:
         respuesta = client.models.generate_content(
-            model='gemini-2.0-flash',  # Actualizado a la versión estable más rápida
+            model='gemini-2.5-flash',
             contents=[system_instruction, f"Usuario: {request.mensaje}"]
         )
         return {"respuesta": respuesta.text}
