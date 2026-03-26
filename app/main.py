@@ -22,9 +22,14 @@ load_dotenv()
 
 app = FastAPI(title="Microservicio Orientación Vocacional SOV LIMA")
 
+origins = [
+    "http://localhost:4200",
+    "https://tu-dominio-frontend.com",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
