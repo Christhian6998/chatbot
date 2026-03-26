@@ -24,7 +24,7 @@ app = FastAPI(title="Microservicio Orientación Vocacional SOV LIMA")
 
 origins = [
     "http://localhost:4200",
-    "https://tu-dominio-frontend.com",
+    "https://sov-lima.azurewebsites.net",
 ]
 
 app.add_middleware(
