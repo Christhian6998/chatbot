@@ -4,7 +4,7 @@ gunicorn
 python-dotenv
 cloudinary
 google-genai
-PyPDF2
 pydantic
+pymupdf
 apscheduler
 pytz
